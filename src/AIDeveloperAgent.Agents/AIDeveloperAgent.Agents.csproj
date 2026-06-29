@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\AIDeveloperAgent.Core\AIDeveloperAgent.Core.csproj" />
+    <ProjectReference Include="..\AIDeveloperAgent.Tools\AIDeveloperAgent.Tools.csproj" />
+    <ProjectReference Include="..\AIDeveloperAgent.Models\AIDeveloperAgent.Models.csproj" />
+    <ProjectReference Include="..\AIDeveloperAgent.Infrastructure\AIDeveloperAgent.Infrastructure.csproj" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+</Project>
